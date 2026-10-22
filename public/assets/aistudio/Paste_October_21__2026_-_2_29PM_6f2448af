@@ -1,0 +1,745 @@
+Act as a world-class UI/UX designer, creative director, brand strategist, and senior full-stack developer. Build a complete, production-quality, fully responsive digital marketing strategist portfolio website inspired by the attached reference image.
+Use the reference as visual inspiration for its bold black-and-neon-lime aesthetic, oversized condensed typography, cinematic monochrome portrait, energetic brush-stroke graphics, structured portfolio sections, performance statistics, dark service cards, project showcases, testimonials, and strong conversion-focused contact area.
+Important: Create an original brand and original implementation. Do not copy the reference website's name, logo, text, exact identity, project branding, or distinctive compositions verbatim. Preserve the overall creative direction and premium visual quality while introducing thoughtful design decisions that make the finished website feel bespoke, credible, and professionally art-directed.
+The objective is not to produce another generic AI-generated portfolio template. Build a sophisticated digital strategist website that could realistically be presented to a paying client, attract premium business inquiries, demonstrate marketing expertise, and convert visitors into qualified leads.
+1. PROJECT OBJECTIVE AND BRAND IDENTITY
+Create an original personal brand named AXIS GROWTH with the tagline:
+“Strategy Meets Creative. Growth Becomes Measurable.”
+Position the brand as an independent digital growth strategist specializing in:
+Growth strategy and marketing consulting.
+Performance marketing and paid acquisition.
+SEO and organic search growth.
+Brand positioning and content strategy.
+Conversion-focused website design.
+Marketing analytics and reporting.
+The brand personality should be confident, analytical, creative, modern, and results-oriented.
+The target audience includes:
+Founders and entrepreneurs.
+Established small and medium-sized businesses.
+E-commerce brands.
+SaaS companies.
+Service-based businesses.
+Marketing teams seeking strategic consulting.
+The website should communicate competence within the first few seconds. Visitors should immediately understand who the strategist helps, what problems they solve, and how to start a conversation.
+Create an original typographic logo reading “AXIS” with a compact “GROWTH STRATEGY” descriptor. A custom geometric symbol or angular letterform may be incorporated, but avoid complicated illustrations.
+Use realistic, editable sample content where actual client information is not available. Clearly distinguish illustrative portfolio metrics and demo testimonials from verified business results. Make it easy to replace demo data with genuine client information later.
+2. OVERALL VISUAL DIRECTION
+Build the website around a distinctive dark editorial design system.
+The visual language should combine:
+A predominantly black and near-black background.
+High-contrast ivory typography.
+Electric lime-green highlights.
+Oversized condensed display headlines.
+Clean, compact sans-serif interface text.
+Black-and-white portrait photography.
+Bright lime abstract paint strokes and angular graphic accents.
+Thin borders and structured grid layouts.
+Small uppercase labels.
+Data-driven statistics.
+Detailed project cards with strong visual hierarchy.
+Subtle textures and carefully controlled background patterns.
+The website should feel like a combination of a premium independent creative studio, a performance marketing consultancy, and a contemporary editorial portfolio.
+Aim for a visually rich but controlled aesthetic. The lime color should attract attention to the most important information rather than appearing everywhere.
+Avoid:
+Generic blue and purple SaaS gradients.
+Excessive glassmorphism.
+Rounded cards on every section.
+Oversized floating 3D objects.
+Random decorative icons.
+Excessive glow effects.
+Repetitive centered headings.
+Identical section layouts throughout the page.
+Unnecessary animations that distract from the content.
+Placeholder boxes or broken images.
+Generic AI-generated copy such as “unlock your potential” repeated across the page.
+The finished website should have a clear visual personality and feel intentionally designed rather than automatically assembled.
+3. COLOR PALETTE
+Create a consistent color system using the following values:
+Primary background: #050605
+Secondary background: #0B0D0B
+Card background: #101210
+Elevated surface: #151815
+Primary lime: #B8F500
+Bright lime highlight: #C8FF00
+Muted lime: #819E25
+Primary text: #F4F5F0
+Secondary text: #B5B8AF
+Muted text: #777B72
+Border: rgba(220, 230, 210, 0.13)
+Lime border: rgba(184, 245, 0, 0.40)
+Use near-black backgrounds as the dominant visual surface. The lime accent should be concentrated in the logo mark, highlighted headline words, primary CTAs, graphic brush strokes, metric numbers, progress indicators, and selected icons.
+Keep body text ivory or muted grey. Maintain sufficient contrast for readability.
+Use lime glow sparingly, mainly for subtle interactive states. Avoid neon outlines around every card.
+Define the palette as reusable CSS variables so the entire website remains visually consistent.
+4. TYPOGRAPHY SYSTEM
+Use a combination of bold condensed display typography and clean modern sans-serif text.
+Recommended font pairing:
+Display headlines: Barlow Condensed or Anton.
+Body text and interface elements: Inter or DM Sans.
+Load fonts reliably and provide suitable fallbacks.
+Typography hierarchy:
+Hero headline
+Extra-bold, condensed uppercase lettering.
+Approximately 76–120px on large desktop screens, adjusted to the available width.
+Tight line height.
+Strong visual contrast between ivory and lime words.
+Intentional line breaks.
+Slightly controlled letter spacing.
+Section headings
+Approximately 32–52px on desktop.
+Condensed or bold sans-serif styling.
+Clear separation between title and eyebrow label.
+Body copy
+Approximately 14–16px.
+Line height between 1.55 and 1.8.
+Comfortable reading width.
+Muted grey for secondary descriptions.
+Navigation and labels
+Approximately 10–12px.
+Compact uppercase styling.
+Moderate letter spacing.
+Avoid excessively tiny text.
+Metrics
+Large, bold, high-contrast numbers.
+Lime for the primary numeric value.
+Small descriptive labels beneath.
+Use responsive typography through clamp() and ensure headlines do not overflow or wrap awkwardly at tablet and mobile sizes.
+Do not apply the condensed display font to long paragraphs. Keep the design readable despite the bold visual style.
+5. PAGE STRUCTURE
+Build a complete single-page portfolio website with the following sections in this order:
+Header and navigation.
+Hero section with portrait, introduction, and statistics.
+About the strategist.
+Services.
+Skills, expertise, and performance metrics.
+Featured projects and case studies.
+Testimonials and professional achievements.
+Contact and project inquiry form.
+Footer.
+Use a consistent container width of approximately 1240–1320px on desktop, with carefully controlled gutters.
+Alternate between near-black backgrounds and subtly differentiated charcoal sections. Use spacing, photography, and thin borders to establish hierarchy instead of introducing unrelated background colors.
+6. HEADER AND NAVIGATION
+Create a compact horizontal header on a near-black background.
+Desktop layout:
+Left: original AXIS GROWTH wordmark with a lime geometric symbol.
+Center or right: navigation links.
+Far right: an outlined “LET'S TALK” button with a small directional arrow.
+Navigation items:
+Home
+About
+Services
+Projects
+Testimonials
+Insights
+Contact
+Use a compact header height of approximately 64–78px.
+Design details:
+Logo text should be bold, compact, and easily recognizable.
+The geometric symbol should use lime as its primary accent.
+Navigation text should be small uppercase sans-serif.
+The active navigation link should have a short lime underline.
+The “LET'S TALK” button should have a thin lime border and restrained hover animation.
+Keep horizontal spacing balanced and avoid crowding.
+Header behavior:
+Use a subtle dark background.
+Keep the header fixed or sticky only if it improves navigation.
+On scroll, introduce a slight background transition and understated border.
+Avoid excessive backdrop blur.
+Mobile behavior:
+Keep the logo visible on the left.
+Use an accessible menu toggle on the right.
+Open a compact, polished dark navigation panel.
+Include a prominent lime CTA inside the mobile menu.
+Close the menu after navigation.
+Prevent the menu from covering the entire interface unnecessarily.
+Ensure keyboard accessibility and visible focus indicators.
+7. HERO SECTION — THE MAIN VISUAL STATEMENT
+The hero must be the strongest section of the entire website.
+Create a large, cinematic hero approximately 85–95svh tall on wide desktop screens, subject to content and navigation height.
+Use a three-part composition:
+Left: oversized headline, positioning statement, description, and CTAs.
+Center-right: large monochrome portrait of a digital strategist.
+Far right: vertically arranged performance statistics.
+The composition should feel energetic, editorial, and slightly asymmetrical.
+Left content
+Small eyebrow:
+“INDEPENDENT DIGITAL GROWTH STRATEGIST”
+Main headline:
+“TURN IDEAS INTO”
+“MEASURABLE”
+“GROWTH.”
+Highlight “MEASURABLE” or “GROWTH” in electric lime while keeping the remaining words ivory.
+The headline should be the most visually dominant element. Use condensed uppercase typography with tight line spacing and carefully controlled line breaks.
+Supporting positioning line:
+“STRATEGY. PERFORMANCE. CREATIVE.”
+Use lime to emphasize one strategically chosen word.
+Description:
+“I help ambitious brands turn smarter strategy, sharper creative, and performance-led marketing into sustainable business growth.”
+Keep the paragraph concise and limit its width to approximately 400–460px.
+Primary CTA:
+“VIEW MY WORK” with a right-arrow icon.
+Secondary CTA:
+“DOWNLOAD RESUME” with a download icon.
+The primary CTA should have a lime background and dark text. The secondary CTA should use a transparent background, thin lime border, and ivory text.
+Both buttons must have genuine interactions. The primary CTA scrolls to featured projects. The resume button opens or downloads a real resume file only if one is provided. If no resume exists, link to an appropriate contact or profile section rather than simulating a download.
+Below the CTAs, include a compact trust statement:
+“STRATEGY BUILT AROUND REAL BUSINESS GOALS”
+Optionally show a small row of editable client or industry names. Do not invent real client partnerships or use unauthorized logos. Use industry labels such as “E-COMMERCE,” “SAAS,” “HEALTHCARE,” and “B2B” when verified client names are unavailable.
+Center-right portrait
+Create a striking, high-quality monochrome portrait of a male digital strategist in his late twenties or thirties.
+Image direction:
+Three-quarter profile.
+Dark contemporary clothing.
+Thoughtful, confident expression.
+Strong directional studio lighting.
+Deep black background.
+Realistic skin texture.
+Editorial fashion photography.
+Natural facial anatomy.
+Sharp subject focus.
+Sophisticated grayscale tonal range.
+Place the portrait on the right half of the hero, large enough to overlap the visual boundary between the headline and the right-side statistics.
+Use a transparent-background portrait if image-generation capabilities support clean cutouts. Otherwise, use a carefully composed portrait with a black background that blends naturally into the page.
+Do not use an unrelated celebrity, recognizable public figure, or copied portrait from the reference.
+Lime graphic treatment
+Behind and around the portrait, create an energetic abstract lime paint-brush graphic.
+It should:
+Extend diagonally behind the portrait.
+Create a strong directional motion from lower-left to upper-right.
+Use irregular, believable paint texture.
+Have transparent edges.
+Sit behind the person rather than covering the face.
+Blend naturally into the black background.
+Add a few restrained geometric details, such as thin circular outlines, tiny lime dots, small crosshairs, or angular lines. Keep these details subtle and purposeful.
+Avoid excessive rings, random floating icons, or too many decorative elements.
+Right-side performance statistics
+Create a vertical stack of four compact metrics:
+“8+” — Years of Experience
+“120+” — Projects Delivered
+“60+” — Clients Supported
+“15+” — Industry Awards
+These are illustrative values for the design. Make them editable and do not present them as verified facts unless the site owner confirms them.
+Each metric should include:
+A small lime line icon.
+A large ivory or lime number.
+A compact uppercase descriptor.
+A subtle horizontal separator where appropriate.
+Use a narrow column with generous vertical spacing.
+On smaller desktop screens, reposition this column beneath the hero content or integrate it into a horizontal metrics strip. Do not let it overlap the portrait or squeeze the main headline.
+8. ABOUT SECTION
+Create a two-column editorial section directly below the hero.
+Use a slightly differentiated charcoal background, subtle textures, and generous vertical padding.
+Left column: portrait collage
+Create a visually layered composition featuring:
+A large monochrome portrait of the strategist in a different pose.
+One or two overlapping photographic frames.
+Slightly rotated paper-like borders.
+A lime paint-stroke accent behind the images.
+A subtle oversized vertical word such as “STRATEGY” or “CREATIVE” in very low-contrast grey.
+The collage should feel art-directed rather than randomly stacked.
+Use realistic photography. Avoid distorted portrait frames, uneven image clipping, and decorative elements that make the layout feel cluttered.
+Middle column: introduction
+Eyebrow:
+“ABOUT THE STRATEGIST”
+Heading:
+“STRATEGIST BY MIND. CREATOR BY DESIGN.”
+Highlight one short phrase in lime.
+Paragraph:
+“I bring strategy, creativity, and performance together to help businesses identify opportunities, sharpen their positioning, and build marketing systems that support sustainable growth.”
+Add a second concise paragraph explaining the strategist's approach to research, execution, and measurement.
+Signature treatment:
+“Strategy with purpose.”
+Render this as a small handwritten-style accent only if a suitable font is available. Otherwise, use elegant italic typography.
+CTA:
+“MORE ABOUT ME” with a small right arrow.
+The CTA should lead to a fuller About section, modal, or dedicated biography page.
+Right column: strategic principles
+Create a dark bordered panel with three rows:
+STRATEGIC THINKING
+“Clear positioning and practical plans built around meaningful business objectives.”
+DATA-DRIVEN DECISIONS
+“Research, measurement, and analytics that help identify what is working.”
+PERFORMANCE FOCUSED
+“Continuous improvement guided by relevant metrics and commercial priorities.”
+Each row should contain a lime line icon, a compact uppercase heading, and a short description.
+Use thin separators and subtle hover states. Avoid large rounded cards.
+On mobile, stack the portrait, introduction, and principles panel in a natural reading order.
+9. SERVICES SECTION
+Create a section with the eyebrow:
+“WHAT I DO”
+Heading:
+“SERVICES THAT DRIVE GROWTH”
+Supporting text:
+“Practical strategy and specialist execution for brands ready to move forward.”
+Use a five-column service grid on wide screens, matching the compact, structured feel of the reference without copying its exact cards.
+Service 1 — Growth Strategy
+Icon: chess knight, directional target, or strategic diagram.
+Description:
+“Research, positioning, and actionable growth plans that align marketing with business goals.”
+Service 2 — Performance Marketing
+Icon: lightning bolt or upward-trending chart.
+Description:
+“Paid acquisition, campaign optimization, and conversion-focused experimentation.”
+Service 3 — SEO & Content Strategy
+Icon: search symbol, document, or layered content icon.
+Description:
+“Search visibility, useful content, and organic growth strategies built around audience intent.”
+Service 4 — Web & UX Design
+Icon: monitor or wireframe.
+Description:
+“Conversion-focused digital experiences designed to make the customer journey clearer.”
+Service 5 — Analytics & Reporting
+Icon: analytics bars or dashboard.
+Description:
+“Clear reporting, meaningful KPIs, and practical insights that guide the next decision.”
+Card design:
+Near-black or charcoal surface.
+Thin, subtle border.
+Large lime line icon near the top.
+Compact uppercase service heading.
+Short, readable description.
+Small directional arrow near the bottom.
+Consistent padding and card height.
+Restrained corner rounding, ideally 2–6px.
+No heavy shadows.
+On hover:
+Slightly brighten the card surface.
+Change the icon or arrow to brighter lime.
+Shift the arrow a few pixels to the right.
+Add a restrained border-color transition.
+Do not apply excessive scale effects.
+Each card should lead to a meaningful service-detail section, modal, or contact inquiry with the selected service prefilled.
+Responsive behavior:
+Five columns on sufficiently wide screens.
+Three columns on medium desktop.
+Two columns on tablets.
+One or two columns on mobile depending on available width.
+Maintain consistent spacing between cards.
+10. SKILLS, EXPERTISE, AND PERFORMANCE METRICS
+Create a compact horizontal section that visually combines a skills panel with business performance indicators.
+Use a subtle top and bottom border.
+Left area: skills and expertise
+Heading:
+“SKILLS & EXPERTISE”
+Show five horizontal skill indicators:
+Growth Strategy
+Performance Marketing
+SEO & Content
+Analytics & Reporting
+Brand Positioning
+Use thin horizontal lime progress lines against muted dark-grey tracks.
+If sample percentages are displayed, mark them as illustrative proficiency indicators rather than verified assessment scores. Prefer a clear text-based expertise presentation if percentages would imply unsupported precision.
+Animate the progress indicators gently when the section enters the viewport. Avoid flashy loading-bar effects.
+Right area: performance indicators
+Show four compact metrics with large lime values and small descriptions.
+Example demo content:
+“$24M+” — Revenue Influenced
+“3.7×” — Illustrative ROAS
+“48%” — Illustrative Growth
+“97%” — Client Retention
+These are design examples only. Keep them clearly marked as demo metrics in the source content and replace them with verified figures before publishing.
+Use thin vertical separators between metrics and keep the number typography prominent.
+Tools strip
+Below or alongside the metrics, show a restrained text-based tools strip containing editable names such as:
+Google Analytics
+Search Console
+Google Ads
+Semrush
+HubSpot
+Figma
+Use monochrome text or minimal generic icons. Do not download or use third-party logos without appropriate permission.
+11. FEATURED PROJECTS / CASE STUDIES
+Create a portfolio section with a compact header:
+Eyebrow:
+“SELECTED WORK”
+Heading:
+“FEATURED PROJECTS”
+Supporting line:
+“Selected examples of strategy, execution, and measurable progress.”
+Place a “VIEW ALL PROJECTS” link with a lime arrow on the right.
+Display four project cards in a horizontally aligned desktop grid or a carefully designed project carousel.
+Every card should feature a distinct visual asset, not merely a text-only panel.
+Project 1 — VERDANT
+Category: BRANDING & WEB DESIGN
+Project:
+“Verdant Digital Identity”
+Visual direction:
+Premium sustainable consumer product.
+Minimal dark product photography.
+Sophisticated packaging mockup.
+Refined typography.
+Demo outcome:
+“+32% qualified engagement”
+Project 2 — NEXORA
+Category: PRODUCT & UX DESIGN
+Project:
+“Nexora SaaS Experience”
+Visual direction:
+Dark software dashboard.
+Clean data visualizations.
+Sophisticated interface details.
+Strong product typography.
+Demo outcome:
+“+24% demo conversions”
+Project 3 — PULSE
+Category: PERFORMANCE MARKETING
+Project:
+“Pulse Acquisition Campaign”
+Visual direction:
+High-energy sports or performance brand campaign.
+Monochrome athletic photography.
+Restrained lime graphic accents.
+Bold editorial layout.
+Demo outcome:
+“2.4× campaign ROAS”
+Project 4 — LUMEN
+Category: BRAND STRATEGY
+Project:
+“Lumen Brand Launch”
+Visual direction:
+Premium lifestyle product.
+Cinematic dark photography.
+Carefully composed packaging.
+Minimal editorial styling.
+Demo outcome:
+“+41% brand search growth”
+All project names, brands, and metrics above are fictional demo content. Clearly separate these illustrative examples from verified real-world case studies and make them easy to replace.
+Card structure:
+Project image covering the upper two-thirds.
+Small category label.
+Project title.
+One-line description or outcome.
+Small arrow indicating an interactive detail view.
+Visual styling:
+Thin dark-grey borders.
+Subtle image overlays.
+High-contrast text.
+Consistent image proportions.
+Small lime corner detail or micro-label.
+No excessive shadows or large rounded corners.
+Interactions:
+Slight image zoom on hover.
+A restrained overlay revealing a short project summary.
+A clear “VIEW CASE STUDY” action.
+Clicking a project opens a dedicated detail page, accessible modal, or expanded case study with objective, approach, deliverables, and results.
+Do not claim that demo projects were performed for real clients.
+If implementing a carousel, include functional previous/next buttons, accessible labels, visible focus states, and appropriate mobile swipe behavior. Do not hide important project information behind inaccessible controls.
+12. TESTIMONIALS AND PROFESSIONAL ACHIEVEMENTS
+Create a dark editorial section with two visually distinct areas.
+Left area: testimonial introduction
+Heading:
+“WHAT CLIENTS SAY”
+Supporting text:
+“Clear strategy. Thoughtful execution. Better business decisions.”
+Include a small lime brush-stroke graphic or abstract directional mark.
+Center area: testimonials
+Show three compact testimonial cards.
+Each card may include:
+Five-star visual treatment only for clearly labeled sample content.
+A short testimonial.
+A name and role.
+A small circular profile photograph only if a suitable, licensed image is available.
+Use fictional sample identities such as:
+Jessica Miller — Marketing Lead
+Daniel Kim — SaaS Founder
+Sarah Johnson — Brand Director
+Clearly mark the testimonials as demonstration content in the development data and replace them with authentic, authorized client feedback before publishing.
+Avoid overly polished, repetitive testimonials that sound fabricated. Write natural, concise statements with distinct voices.
+Keep cards dark, with thin borders and modest spacing. Use lime for the star accents or a small highlighted detail.
+Right area: achievements
+Create a narrow column titled:
+“PROFESSIONAL HIGHLIGHTS”
+Include editable achievement categories such as:
+Analytics & Measurement
+Search Marketing
+Growth Strategy
+Marketing Technology
+Creative & UX
+Only show actual certification logos, partnership badges, awards, or official accreditations when they are verified. Otherwise, use neutral text-based categories and omit claims of official recognition.
+Keep this section compact, aligned, and visually consistent with the rest of the website.
+13. CONTACT AND PROJECT INQUIRY SECTION
+Create a dramatic contact section near the bottom of the page.
+Use a near-black background with energetic lime paint strokes along the far edges or lower corners. Add subtle white paint texture on the opposite side to create visual balance.
+Do not let the graphics obscure the form, headline, or contact information.
+Use a three-column desktop layout.
+Left column: headline
+Large condensed heading:
+“HAVE A PROJECT IN MIND?”
+Highlight “PROJECT” or “MIND?” in lime.
+Supporting copy:
+“Let's build a smarter strategy and turn your next opportunity into measurable progress.”
+Keep the text large and visually impactful without overflowing.
+Center column: inquiry form
+Create a polished, functional form with these fields:
+Your Name
+Your Email
+Company Name
+Project Type
+Tell Me About Your Project
+Project-type options:
+Growth Strategy
+Performance Marketing
+SEO & Content
+Website & UX
+Analytics & Reporting
+Other
+Use two columns for the first four fields where sufficient space is available, followed by a full-width message field.
+Input styling:
+Dark charcoal background.
+Thin border.
+Ivory text.
+Muted placeholder text.
+Lime focus border.
+Consistent field heights.
+Comfortable internal padding.
+Clear labels.
+Accessible validation messages.
+Submit button:
+“SEND PROJECT INQUIRY” with a directional arrow.
+Form behavior:
+Validate required fields.
+Validate email format.
+Display inline errors.
+Show a clear loading state during submission.
+Provide a confirmation state only after a real successful submission.
+If there is no backend, implement a clearly labeled demo mode or connect an available supported form service when configured.
+Never pretend a message was sent if no submission occurred.
+Right column: contact information
+Use editable contact details:
+Email address.
+Phone number.
+Location.
+Availability for new projects.
+Do not invent real personal contact details. Use clearly identified demo values in the development environment and make them easy to replace.
+Include social links for relevant professional platforms such as LinkedIn and Instagram, with proper accessible labels.
+On mobile, stack the headline, form, and contact details vertically. Maintain clear separation and ensure the decorative graphics never obstruct form controls.
+14. FOOTER DESIGN
+Create a compact, structured, professional footer.
+Desktop layout:
+Left: AXIS GROWTH logo and a short positioning statement.
+Middle: navigation links.
+Middle-right: services links.
+Right: contact information and social links.
+Add a subtle horizontal border above the footer.
+Include:
+Home
+About
+Services
+Projects
+Testimonials
+Insights
+Contact
+Privacy Policy
+Terms of Service
+Bottom line:
+“© [Current Year] AXIS GROWTH. All rights reserved.”
+Use the actual current year dynamically in the application.
+Keep the footer visually compact, with small but readable typography, subtle grey labels, and restrained lime accents.
+Ensure all links work and point to meaningful sections or pages. If a legal page has not been implemented, provide a valid page or clearly marked development destination rather than a dead link.
+15. BACKGROUND GRAPHICS, TEXTURES, AND DEPTH
+Use subtle graphic details throughout the website to reinforce the creative strategy identity.
+Possible details:
+Faint dot matrices.
+Thin technical grid lines.
+Oversized low-contrast background words.
+Fine grain texture.
+Abstract lime paint strokes.
+Angular geometric marks.
+Small crosshair details.
+Thin horizontal dividers.
+Subtle radial lighting behind the hero portrait.
+Keep decorative elements in the background and ensure they do not interfere with readability.
+Use CSS pseudo-elements, lightweight SVGs, or original graphic assets where appropriate.
+Do not use a large number of random shapes. Each graphic should reinforce the visual hierarchy or provide a connection between sections.
+Ensure decorative elements use pointer-events: none and do not create unwanted horizontal overflow.
+Avoid excessive box shadows. Use contrast, spacing, image layering, and restrained borders to create visual depth.
+16. IMAGE GENERATION AND ASSET REQUIREMENTS
+Generate original visual assets automatically if image-generation capabilities are available in the project environment. Otherwise, use reliable, properly licensed imagery or assets already present in the project.
+Required visuals:
+Hero portrait: monochrome editorial portrait of a male digital strategist in dark clothing, three-quarter profile, dramatic studio lighting, dark background.
+Hero graphic: transparent lime paint-brush stroke with irregular paint texture and diagonal movement.
+About portrait: a second, distinct monochrome portrait in a thoughtful working pose.
+Project image 1: premium consumer-product branding mockup.
+Project image 2: sophisticated SaaS dashboard visual.
+Project image 3: energetic sports or performance-marketing campaign image.
+Project image 4: premium lifestyle product campaign.
+Contact background accents: abstract lime and white brush strokes with transparent backgrounds if possible.
+Optional testimonial portraits: appropriate, licensed, realistic images if needed.
+Image quality standards:
+High resolution.
+Realistic photography where photography is required.
+Natural anatomy and believable proportions.
+Consistent monochrome and dark editorial color grading.
+Cohesive lighting.
+Sharp details.
+No watermarks.
+No embedded text.
+No copied logos or branding.
+No distorted faces, hands, or objects.
+No obvious generative artifacts.
+For project mockups, use the fictional AXIS GROWTH case-study brands and original visual concepts. Do not reproduce the reference image's exact project artwork or product labels.
+Never leave empty image boxes, broken links, unresolved assets, or generic placeholder images.
+If an image-generation feature is not available, select suitable usable assets and integrate them correctly. Do not claim to have generated images if the tool was not actually used.
+Use meaningful alt text for informative images and empty alt text for decorative graphics. Optimize assets and maintain consistent image dimensions.
+17. ANIMATIONS AND MICRO-INTERACTIONS
+Keep motion purposeful, smooth, and professional.
+Implement:
+Subtle hero headline entrance animation.
+A restrained portrait reveal.
+Optional slight movement of the decorative brush stroke.
+Section reveals using opacity and small vertical translations.
+Navigation underline transitions.
+Button hover transitions.
+Service-card icon transitions.
+Project image zoom.
+Animated metric counters only when they do not imply fake live data.
+Subtle progress-line animation in the skills section.
+Smooth anchor navigation.
+Form submission and validation feedback.
+Responsive mobile-menu transitions.
+Timing:
+Standard UI transitions: approximately 180–300ms.
+Image hover transitions: approximately 350–600ms.
+Section reveals: approximately 450–700ms.
+Use appropriate easing curves. Avoid aggressive parallax, scroll-jacking, bouncing, spinning, or excessive simultaneous motion.
+Respect prefers-reduced-motion. Ensure the content is still visible and usable when animations are disabled.
+18. FULL RESPONSIVE BEHAVIOR
+Build mobile-first responsive layouts.
+Large desktop: 1440px and above
+Full horizontal navigation.
+Large editorial hero headline.
+Prominent portrait occupying the right-center.
+Separate vertical metrics column.
+Five-column service grid.
+Four-column project showcase.
+Multi-column about and contact layouts.
+Generous negative space.
+Standard desktop: 1024–1439px
+Scale down the hero headline without losing impact.
+Keep the portrait composition balanced.
+Reduce excessive section padding.
+Maintain readable metrics and service descriptions.
+Prevent navigation crowding.
+Tablet: 768–1023px
+Use a two-column hero layout when practical.
+Move metrics below the hero content if the right column becomes too narrow.
+Use two or three service columns.
+Use two project columns.
+Reflow the about section into balanced columns or stacked blocks.
+Reduce decorative graphics where they compete with content.
+Mobile: 320–767px
+Compact header with accessible navigation.
+Hero headline approximately 48–72px depending on screen width.
+Stack the hero content naturally.
+Position the portrait below or alongside the headline only if sufficient space remains.
+Reduce the size of background brush strokes.
+Move metrics into a two-column or compact horizontal arrangement.
+Use two service columns only when each card remains comfortably readable; otherwise use one.
+Stack project cards vertically or use a fully accessible horizontal carousel.
+Stack contact form fields.
+Maintain clear spacing between buttons.
+Prevent text from overlapping photographs.
+Eliminate horizontal scrolling.
+Keep all tap targets comfortably sized.
+Ensure no fixed-height section cuts off its content.
+Do not merely shrink the desktop version. Recompose the design intelligently at each breakpoint.
+19. FUNCTIONALITY REQUIREMENTS
+The website must be a working application, not a static mockup.
+Implement:
+Functional navigation links.
+Smooth scrolling to page sections.
+Responsive mobile navigation.
+Working service-card links.
+Working project-detail views.
+Functional project carousel controls if a carousel is used.
+Download-resume behavior only when a real resume file exists.
+Working contact-form validation.
+Honest form submission states.
+Interactive social links.
+Accessible keyboard navigation.
+Proper hover and focus states.
+Meaningful error states.
+Functional back-to-top control if included.
+If no backend is configured, clearly distinguish demonstration interactions from production integrations.
+Do not create fake email confirmations, fake analytics, fake live campaign data, or fake project submission success.
+20. TECHNICAL IMPLEMENTATION
+Inspect the available Google AI Studio environment and use the compatible technology stack.
+Prefer:
+React.
+TypeScript.
+Modern CSS or configured Tailwind CSS.
+Reusable components.
+Semantic HTML.
+Lucide icons or a consistent equivalent.
+CSS custom properties for design tokens.
+Lightweight animation techniques.
+Responsive image handling.
+Suggested component structure:
+Header
+MobileNavigation
+HeroSection
+PerformanceMetrics
+AboutSection
+PrinciplesPanel
+ServicesSection
+ServiceCard
+SkillsSection
+ProjectsSection
+ProjectCard
+ProjectDetails
+TestimonialsSection
+AchievementsPanel
+ContactSection
+ContactForm
+Footer
+Keep demo content in an editable configuration or data structure where practical.
+Write clean, maintainable code. Avoid unnecessary dependencies and repeated CSS. Ensure component keys are stable and forms use proper controlled state where needed.
+Do not simply output code in the conversation. Implement the complete website in the actual project files and ensure it runs in the available preview environment.
+21. SEO, ACCESSIBILITY, AND PERFORMANCE
+Implement:
+A descriptive page title, such as “AXIS GROWTH | Digital Strategy & Performance Marketing”.
+A concise, relevant meta description.
+Correct heading hierarchy.
+Descriptive alt text.
+Open Graph metadata.
+A simple original favicon or brand mark if supported.
+Accessible form labels.
+Visible focus states.
+Keyboard-operable menus and controls.
+Appropriate contrast.
+Reduced-motion support.
+Optimized images.
+Lazy loading below the fold.
+Appropriate loading priority for the hero portrait.
+Defined image aspect ratios to minimize layout shifts.
+Clean semantic markup.
+No broken links or missing assets.
+No unnecessary scripts or large animation libraries.
+Avoid keyword stuffing. Use natural copy relevant to digital strategy, performance marketing, SEO, and business growth.
+Do not invent certifications, client endorsements, awards, or verified business results.
+22. FINAL QUALITY ASSURANCE
+Before finishing, inspect the rendered website at desktop, tablet, and mobile sizes.
+Verify that:
+The hero is visually striking and well balanced.
+The headline has intentional line breaks.
+The portrait integrates naturally with the lime brush-stroke graphic.
+The header alignment is precise.
+The statistics are legible.
+The service cards feel consistent.
+The project images are distinct and visually coherent.
+The contact section is prominent and usable.
+The footer is complete.
+All interactions work.
+All images load.
+No text overlaps or gets clipped.
+There is no horizontal overflow.
+Typography is consistent.
+The design does not feel repetitive or overly symmetrical.
+The page does not look like a generic AI-generated template.
+The application has no avoidable runtime or console errors.
+Fix visible problems directly in the implementation.
+FINAL INSTRUCTION
+Build the complete AXIS GROWTH portfolio website using the attached image as visual inspiration. Preserve its powerful black-and-neon-lime aesthetic, oversized condensed typography, monochrome strategist portrait, energetic brush-stroke accents, data-driven presentation, compact service cards, editorial project gallery, testimonials, and conversion-focused contact area.
+Create an original identity with thoughtful composition, realistic imagery, refined spacing, consistent typography, working interactions, and professional responsive behavior.
+Prioritize the quality of the actual rendered website over simply generating a large amount of code. Make the finished result feel like a bespoke digital marketing portfolio created by an experienced creative agency for a real client. Do not stop at a plan or wireframe. Implement, render, inspect, refine, and deliver the complete working website.
+
