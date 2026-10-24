@@ -72,7 +72,7 @@ export const ResumeSection: React.FC<ResumeSectionProps> = ({
                 MUHAMMAD QASIM — <span className="text-[#B8F500]">SEO SPECIALIST</span>
               </h3>
               <p className="text-xs text-[#777B72] font-mono mt-0.5">
-                Pakistan  •  muhammadqasim0435976@gmail.com  •  linkedin.com/in/muhammad-qasim-waheed/
+                Pakistan  •  muhammadqasim0435976@gmail.com  •  linkedin.com/in/muhammadqasim-waheed/
               </p>
             </div>
 

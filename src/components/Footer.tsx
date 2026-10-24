@@ -83,6 +83,16 @@ export const Footer: React.FC = () => {
               </h4>
               <div className="space-y-2 text-xs">
                 <a
+                  href={PORTFOLIO_DATA.personal.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-mono text-[#25D366] hover:underline flex items-center gap-1.5"
+                >
+                  <span className="w-2 h-2 rounded-full bg-[#25D366]" />
+                  <span>WhatsApp: +92 334 5493449</span>
+                  <ExternalLink className="w-3 h-3 opacity-75" />
+                </a>
+                <a
                   href={`mailto:${PORTFOLIO_DATA.personal.email}`}
                   className="font-mono text-[#B8F500] hover:underline flex items-center gap-1.5 truncate"
                 >

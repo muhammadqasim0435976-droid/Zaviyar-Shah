@@ -77,7 +77,7 @@ async function generateCV() {
   y -= 18;
 
   // Contact Info bar
-  const contactLine = 'Pakistan  |  muhammadqasim0435976@gmail.com  |  linkedin.com/in/muhammad-qasim-waheed/';
+  const contactLine = 'Pakistan  |  muhammadqasim0435976@gmail.com  |  linkedin.com/in/muhammadqasim-waheed/';
   page.drawText(contactLine, {
     x: margin,
     y: y,
